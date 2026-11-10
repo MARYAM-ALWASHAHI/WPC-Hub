@@ -1,0 +1,19 @@
+{
+  "items": {
+    "ex1": {"id":"ex1","ref":"WPC-2026-001","title":"(Example) Renewal of expatriate contract: Senior Reduction Engineer","category":"Expatriate contract renewal","sub":"Renewal on same terms","dept":"Potline","owner":"HR Manager","request":"Renewal of expatriate contract for senior reduction engineer.","status":"OPEN","archived":false,"createdAt":"2026-11-01"},
+    "ex2": {"id":"ex2","ref":"WPC-2026-002","title":"(Example) Two Process Technicians for Casthouse","category":"Manpower requirement","sub":"New position (budgeted)","dept":"Casthouse","owner":"Operations Manager","request":"Two process technician positions are required.","status":"OPEN","archived":false,"createdAt":"2026-11-02"}
+  },
+  "meetings": {
+    "exm1": {"id":"exm1","ref":"M-2026-01","title":"(Example) WPC Meeting, October","date":"2026-10-14","status":"archived","version":1,"agenda":["ex1"],"members":["u_mem"],"chairman":"u_chair","versions":[],"createdAt":"2026-10-01"}
+  },
+  "minutes": {
+    "exm1__ex1": {"meetingId":"exm1","itemId":"ex1","discussion":"Committee reviewed succession plan and approved further HR action.","decision":"Recommended renewal for 2 years. HR to complete process.","updatedAt":"2026-10-14T10:03:00Z"}
+  },
+  "actions": {
+    "exa1": {"id":"exa1","itemId":"ex1","meetingId":"exm1","text":"Issue renewal letter and update contract record","owner":"HR Manager","due":"2026-11-05","status":"OPEN"}
+  },
+  "roster": {"chairman":"u_chair","members":["u_mem"]},
+  "sigs": {},
+  "audit": {},
+  "counters": {"item2026": 2, "meeting2026": 1}
+}
